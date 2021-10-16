@@ -37,6 +37,10 @@
     transition: all 1s ease-in-out;
 }
 
+.ex-8-img {
+    transition: all 1s ease-in-out;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -108,4 +112,9 @@
 
 .ex-7-img:hover{
     filter: sepia(0.5);
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: sepia(0.5) saturate(0.6);
 }

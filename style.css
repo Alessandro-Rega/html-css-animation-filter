@@ -44,6 +44,7 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s ease-in-out;
 }
 .ex-10-icon {
     font-size: 60px;
@@ -117,4 +118,10 @@
 .ex-8-img:hover{
     border-radius: 20px;
     filter: sepia(0.5) saturate(0.6);
+}
+
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: sepia(0.5) saturate(0.6);
+    transform: scale(1.5);
 }
